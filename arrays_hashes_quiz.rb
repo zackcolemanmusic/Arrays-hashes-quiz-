@@ -87,7 +87,7 @@ puts users["Erik"][:favourite_numbers].min
 users["Erik"][:favourite_numbers].push(7)
 puts users["Erik"][:favourite_numbers]
 # 7. Change Erik's hometown to Edinburgh
-
+puts users["Erik"][:home_town] = "Edinburgh"
 # 8. Add a pet dog to Erik called "Fluffy"
 
 # 9. Add yourself to the users hash
