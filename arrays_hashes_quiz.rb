@@ -89,5 +89,7 @@ puts users["Erik"][:favourite_numbers]
 # 7. Change Erik's hometown to Edinburgh
 puts users["Erik"][:home_town] = "Edinburgh"
 # 8. Add a pet dog to Erik called "Fluffy"
+users["Erik"][:pets]["Fluffy"] = [:Dog]
+puts users["Erik"]
 
 # 9. Add yourself to the users hash
