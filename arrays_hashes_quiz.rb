@@ -93,3 +93,10 @@ users["Erik"][:pets]["Fluffy"] = [:Dog]
 puts users["Erik"]
 
 # 9. Add yourself to the users hash
+users["Zack"] = {
+  :favourite_numbers => [2, 12, 22],
+  :home_town => "Dunbar",
+  :pets => {"Phil" => :Dragon
+  }
+}
+puts users
